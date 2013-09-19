@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F681C95917EAFF9000FD615A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F681C95817EAFF9000FD615A /* Foundation.framework */; };
+		F681C95B17EAFF9000FD615A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F681C95A17EAFF9000FD615A /* CoreGraphics.framework */; };
+		F681C95D17EAFF9000FD615A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F681C95C17EAFF9000FD615A /* UIKit.framework */; };
+		F681C96317EAFF9000FD615A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F681C96117EAFF9000FD615A /* InfoPlist.strings */; };
+		F681C96517EAFF9000FD615A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F681C96417EAFF9000FD615A /* main.m */; };
+		F681C96917EAFF9000FD615A /* C360AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F681C96817EAFF9000FD615A /* C360AppDelegate.m */; };
+		F681C96B17EAFF9000FD615A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F681C96A17EAFF9000FD615A /* Images.xcassets */; };
+		F681C98A17EB000600FD615A /* C360NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F681C98917EB000600FD615A /* C360NavigationBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F681C95517EAFF9000FD615A /* C360NavigationBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C360NavigationBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F681C95817EAFF9000FD615A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F681C95A17EAFF9000FD615A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F681C95C17EAFF9000FD615A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F681C96017EAFF9000FD615A /* C360NavigationBarDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "C360NavigationBarDemo-Info.plist"; sourceTree = "<group>"; };
+		F681C96217EAFF9000FD615A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F681C96417EAFF9000FD615A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F681C96617EAFF9000FD615A /* C360NavigationBarDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "C360NavigationBarDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F681C96717EAFF9000FD615A /* C360AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C360AppDelegate.h; sourceTree = "<group>"; };
+		F681C96817EAFF9000FD615A /* C360AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C360AppDelegate.m; sourceTree = "<group>"; };
+		F681C96A17EAFF9000FD615A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F681C97117EAFF9100FD615A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F681C98817EB000600FD615A /* C360NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C360NavigationBar.h; sourceTree = "<group>"; };
+		F681C98917EB000600FD615A /* C360NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C360NavigationBar.m; sourceTree = "<group>"; };
+		F681C98B17EB014000FD615A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F681C95217EAFF9000FD615A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F681C95B17EAFF9000FD615A /* CoreGraphics.framework in Frameworks */,
+				F681C95D17EAFF9000FD615A /* UIKit.framework in Frameworks */,
+				F681C95917EAFF9000FD615A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F681C94C17EAFF9000FD615A = {
+			isa = PBXGroup;
+			children = (
+				F681C98717EAFFEE00FD615A /* C360NavigationBar */,
+				F681C95E17EAFF9000FD615A /* C360NavigationBarDemo */,
+				F681C95717EAFF9000FD615A /* Frameworks */,
+				F681C95617EAFF9000FD615A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F681C95617EAFF9000FD615A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F681C95517EAFF9000FD615A /* C360NavigationBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F681C95717EAFF9000FD615A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F681C95817EAFF9000FD615A /* Foundation.framework */,
+				F681C95A17EAFF9000FD615A /* CoreGraphics.framework */,
+				F681C95C17EAFF9000FD615A /* UIKit.framework */,
+				F681C97117EAFF9100FD615A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F681C95E17EAFF9000FD615A /* C360NavigationBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F681C96717EAFF9000FD615A /* C360AppDelegate.h */,
+				F681C96817EAFF9000FD615A /* C360AppDelegate.m */,
+				F681C96A17EAFF9000FD615A /* Images.xcassets */,
+				F681C95F17EAFF9000FD615A /* Supporting Files */,
+			);
+			path = C360NavigationBarDemo;
+			sourceTree = "<group>";
+		};
+		F681C95F17EAFF9000FD615A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F681C98B17EB014000FD615A /* LICENSE */,
+				F681C96017EAFF9000FD615A /* C360NavigationBarDemo-Info.plist */,
+				F681C96117EAFF9000FD615A /* InfoPlist.strings */,
+				F681C96417EAFF9000FD615A /* main.m */,
+				F681C96617EAFF9000FD615A /* C360NavigationBarDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F681C98717EAFFEE00FD615A /* C360NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F681C98817EB000600FD615A /* C360NavigationBar.h */,
+				F681C98917EB000600FD615A /* C360NavigationBar.m */,
+			);
+			path = C360NavigationBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F681C95417EAFF9000FD615A /* C360NavigationBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F681C98117EAFF9100FD615A /* Build configuration list for PBXNativeTarget "C360NavigationBarDemo" */;
+			buildPhases = (
+				F681C95117EAFF9000FD615A /* Sources */,
+				F681C95217EAFF9000FD615A /* Frameworks */,
+				F681C95317EAFF9000FD615A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C360NavigationBarDemo;
+			productName = C360NavigationBarDemo;
+			productReference = F681C95517EAFF9000FD615A /* C360NavigationBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F681C94D17EAFF9000FD615A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = C360;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = CRedit360;
+			};
+			buildConfigurationList = F681C95017EAFF9000FD615A /* Build configuration list for PBXProject "C360NavigationBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F681C94C17EAFF9000FD615A;
+			productRefGroup = F681C95617EAFF9000FD615A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F681C95417EAFF9000FD615A /* C360NavigationBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F681C95317EAFF9000FD615A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F681C96317EAFF9000FD615A /* InfoPlist.strings in Resources */,
+				F681C96B17EAFF9000FD615A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F681C95117EAFF9000FD615A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F681C96917EAFF9000FD615A /* C360AppDelegate.m in Sources */,
+				F681C96517EAFF9000FD615A /* main.m in Sources */,
+				F681C98A17EB000600FD615A /* C360NavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F681C96117EAFF9000FD615A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F681C96217EAFF9000FD615A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F681C97F17EAFF9100FD615A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F681C98017EAFF9100FD615A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F681C98217EAFF9100FD615A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "C360NavigationBarDemo/C360NavigationBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "C360NavigationBarDemo/C360NavigationBarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F681C98317EAFF9100FD615A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "C360NavigationBarDemo/C360NavigationBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "C360NavigationBarDemo/C360NavigationBarDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F681C95017EAFF9000FD615A /* Build configuration list for PBXProject "C360NavigationBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F681C97F17EAFF9100FD615A /* Debug */,
+				F681C98017EAFF9100FD615A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F681C98117EAFF9100FD615A /* Build configuration list for PBXNativeTarget "C360NavigationBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F681C98217EAFF9100FD615A /* Debug */,
+				F681C98317EAFF9100FD615A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F681C94D17EAFF9000FD615A /* Project object */;
+}
