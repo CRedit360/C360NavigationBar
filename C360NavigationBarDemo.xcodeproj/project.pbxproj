@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F672AA4A17EB0A9C008DB1B5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		F681C95517EAFF9000FD615A /* C360NavigationBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C360NavigationBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F681C95817EAFF9000FD615A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F681C95A17EAFF9000FD615A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,6 +93,7 @@
 		F681C95F17EAFF9000FD615A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F672AA4A17EB0A9C008DB1B5 /* README.md */,
 				F681C98B17EB014000FD615A /* LICENSE */,
 				F681C96017EAFF9000FD615A /* C360NavigationBarDemo-Info.plist */,
 				F681C96117EAFF9000FD615A /* InfoPlist.strings */,
