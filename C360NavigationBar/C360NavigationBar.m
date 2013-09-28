@@ -20,7 +20,7 @@
         if ([self respondsToSelector:@selector(setBarTintColor:)])
         {
             self.barStyle = UIBarStyleBlack;
-            self.itemTintColor = [UIColor whiteColor];
+            self.tintColor = _itemTintColor = [UIColor whiteColor];
         }
     }
     return self;
